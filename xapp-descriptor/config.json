@@ -1,5 +1,5 @@
 {
-        "xapp_name": "qp",
+        "name": "qp",
         "version": "0.0.4",
         "containers": [
             {
@@ -37,5 +37,11 @@
             "rxMessages": ["TS_UE_LIST"],
             "txMessages": ["TS_QOE_PREDICTION"],
             "policies": []
+        },
+	"controls": {
+            "fileStrorage": false
+        },
+        "db" : {
+            "waitForSdl": false
         }
 }
