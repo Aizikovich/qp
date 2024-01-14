@@ -28,7 +28,7 @@ class INSERTDATA:
 
     def __init__(self):
         host = 'ricplt-influxdb.ricplt'
-        self.client = DataFrameClient(host, '8086', 'root', 'root')
+        self.client = DataFrameClient(host, '8086', 'admin', 'dXNI5U3POR')
         self.switchdb('UEData')
         self.dropmeas('QP')
 
